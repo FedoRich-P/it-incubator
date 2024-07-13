@@ -32,6 +32,19 @@ function App() {
             <CardBtn saving={true}>Save</CardBtn>
           </CardBody>
         </Card>
+
+        <Card>
+          <CardImg src="https://s1.1zoom.ru/b5050/26/357022-svetik_2560x1440.jpg" />
+          <CardBody>
+            <CardTitle>Title 2</CardTitle>
+            <CardText>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit,
+              eaque!
+            </CardText>
+            <CardBtn preview={true}>See more</CardBtn>
+            <CardBtn saving={true}>Save</CardBtn>
+          </CardBody>
+        </Card>
       </CardBox>
     </div>
   );
